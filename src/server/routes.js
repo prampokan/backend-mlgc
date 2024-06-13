@@ -1,10 +1,10 @@
-const postPredictHandler = require('../server/handler');
+const predictHandler = require('../server/handler');
 
 const routes = [
     {
         path: '/predict',
         method: 'POST',
-        handler: postPredictHandler,
+        handler: predictHandler,
         options: {
             payload: {
                 /*Mengizinkan data berupa gambar*/
